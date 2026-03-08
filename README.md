@@ -32,6 +32,7 @@ This notebook walks through the fundamental building blocks of NLP using two pop
 nlp-spacy-displacy/
 │
 ├── NLP_spaCy_displaCy.ipynb    # Main notebook
+├── dependency_parse.png        # displaCy dependency diagram
 ├── requirements.txt
 └── README.md
 ```
@@ -50,19 +51,28 @@ nlp-spacy-displacy/
 
 ## Getting Started
 
-```bash
-git clone https://github.com/your-username/nlp-spacy-displacy.git
-cd nlp-spacy-displacy
-pip install -r requirements.txt
+This notebook is recommended to run on **Google Colab** (no setup required).
 
-# Download required NLTK data
-python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('wordnet')"
+1. Go to [colab.research.google.com](https://colab.research.google.com)
+2. Click **File → Upload notebook** and upload `NLP_spaCy_displaCy.ipynb`
+3. Run this cell first to download required NLTK data:
 
-# Download spaCy English model
-python -m spacy download en_core_web_sm
-
-jupyter notebook NLP_spaCy_displaCy.ipynb
+```python
+import nltk
+nltk.download('punkt_tab')
+nltk.download('stopwords')
+nltk.download('wordnet')
 ```
+
+4. Run all remaining cells normally — spaCy and `en_core_web_sm` are pre-installed on Colab
+
+---
+
+## Dependency Parse Visualization
+
+displaCy renders a visual dependency parse tree showing grammatical relationships between words:
+
+
 
 ---
 
