@@ -1,10 +1,10 @@
-# NLP with NLTK, spaCy & displaCy
+# 📝 NLP with NLTK, spaCy & displaCy
 
 A hands-on Natural Language Processing project covering core NLP techniques — tokenization, stop word filtering, stemming, lemmatization, POS tagging, Named Entity Recognition (NER), and dependency visualization using **NLTK** and **spaCy**.
 
 ---
 
-## Overview
+## 📌 Overview
 
 This notebook walks through the fundamental building blocks of NLP using two popular Python libraries:
 - **NLTK** — for classical NLP preprocessing
@@ -12,7 +12,7 @@ This notebook walks through the fundamental building blocks of NLP using two pop
 
 ---
 
-## Topics Covered
+## 🧠 Topics Covered
 
 | Topic | Description |
 |---|---|
@@ -26,7 +26,7 @@ This notebook walks through the fundamental building blocks of NLP using two pop
 
 ---
 
-## Project Structure
+## 🗂️ Project Structure
 
 ```
 nlp-spacy-displacy/
@@ -39,7 +39,7 @@ nlp-spacy-displacy/
 
 ---
 
-## Tech Stack
+## 🔧 Tech Stack
 
 | Library | Purpose |
 |---|---|
@@ -49,7 +49,7 @@ nlp-spacy-displacy/
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 This notebook is recommended to run on **Google Colab** (no setup required).
 
@@ -68,15 +68,15 @@ nltk.download('wordnet')
 
 ---
 
-## Dependency Parse Visualization
+## 🖼️ Dependency Parse Visualization
 
 displaCy renders a visual dependency parse tree showing grammatical relationships between words:
 
-
+![Dependency Parse Diagram](dependency_parse.png)
 
 ---
 
-## Example — Named Entity Recognition
+## 📌 Example — Named Entity Recognition
 
 ```python
 raw_text = "The Indian Space Research Organisation is headquartered in Bengaluru."
